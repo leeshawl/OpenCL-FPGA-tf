@@ -53,5 +53,3 @@ DE10_nano BSP
 minicom
 
 TensorFlow
-## 参考文献
-《OpenCL异构计算》，胡正伟。
