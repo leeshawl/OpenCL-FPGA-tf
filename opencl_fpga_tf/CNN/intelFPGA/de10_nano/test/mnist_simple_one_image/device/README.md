@@ -1,0 +1,2 @@
+对kernel进行编译，运行终端命令 aoc device/mnist_simple.cl -o bin/mnist_simple.aocx -board=de10_nano_sharedonly -v -report
+运行后会在mnist_simple_one_image文件下生成一个bin文件，文件夹中生成一个名称为mnist_simple的文件夹和两个新文件mnist_simple.aoco与mnist_simple.aocx，其中mnist_simple.aocx是FPGA编译文件，需要复制到FPGA开发板上。mnist_simple文件夹包含了kernel编译的相关信息。
